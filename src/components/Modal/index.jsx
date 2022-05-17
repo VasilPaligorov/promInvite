@@ -22,10 +22,11 @@ const dropIn = {
   },
 };
 
-const Modal = ({ handleClose , setShowConfetti }) => {
+const Modal = ({ handleClose , setShowConfetti, setImg}) => {
 
   function closeModal() {
     setShowConfetti(false);
+    setImg("closedImg.png");
     handleClose();
   }
 

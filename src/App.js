@@ -42,7 +42,7 @@ function App() {
 
       <ModalContainer>
         {modalOpen && (
-          <Modal modalOpen={modalOpen} handleClose={close} setShowConfetti={setShowConfetti} />
+          <Modal modalOpen={modalOpen} handleClose={close} setShowConfetti={setShowConfetti} setImg={setImg} />
         )}
       </ModalContainer>
     </>
