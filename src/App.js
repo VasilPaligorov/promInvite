@@ -20,11 +20,14 @@ function App() {
 
   return (
     <>
-      <Confetti
-        width={width}
-        height={height}
-        recycle = {showConfetti}
-      />
+      {showConfetti ?
+        <Confetti
+          width={width}
+          height={height}
+        />
+        :
+        <></>
+      }
       <motion.main>
         <h1>If you aren't scared click here:</h1>
         <motion.img src={img}
