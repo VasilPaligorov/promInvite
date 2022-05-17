@@ -26,7 +26,7 @@ const Modal = ({ handleClose , setShowConfetti, setImg}) => {
 
   function closeModal() {
     setShowConfetti(false);
-    setImg("closedImg.png");
+    setImg("closedMail.png");
     handleClose();
   }
 
