@@ -3,7 +3,7 @@ import Backdrop from "../Backdrop/index";
 
 const dropIn = {
   hidden: {
-    y: "-100vh",
+    y: "100vh",
     opacity: 0,
   },
   visible: {
