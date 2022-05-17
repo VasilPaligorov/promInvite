@@ -14,17 +14,20 @@ function App() {
 
   function setOpened() {
     setImg("openedMail.png");
-    setShowConfetti(true);  
+    setShowConfetti(true);
     open();
   }
 
   return (
     <>
-      <Confetti
-        width={width}
-        height={height}
-        recycle = {showConfetti}
-      />
+      {showConfetti ?
+        <Confetti
+          width={width}
+          height={height}
+        />
+        :
+        <></>
+      }
       <motion.main>
         <h1>If you aren't scared click here:</h1>
         <motion.img src={img}
@@ -39,7 +42,7 @@ function App() {
 
       <ModalContainer>
         {modalOpen && (
-          <Modal modalOpen={modalOpen} handleClose={close} setShowConfetti={setShowConfetti}/>
+          <Modal modalOpen={modalOpen} handleClose={close} setShowConfetti={setShowConfetti} />
         )}
       </ModalContainer>
     </>
