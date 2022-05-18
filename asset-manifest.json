@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/promInvite/static/css/main.981bff40.chunk.css",
-    "main.js": "/promInvite/static/js/main.9c8e6059.chunk.js",
-    "main.js.map": "/promInvite/static/js/main.9c8e6059.chunk.js.map",
+    "main.js": "/promInvite/static/js/main.ebde6947.chunk.js",
+    "main.js.map": "/promInvite/static/js/main.ebde6947.chunk.js.map",
     "runtime-main.js": "/promInvite/static/js/runtime-main.d4556479.js",
     "runtime-main.js.map": "/promInvite/static/js/runtime-main.d4556479.js.map",
     "static/js/2.95aec8c0.chunk.js": "/promInvite/static/js/2.95aec8c0.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.d4556479.js",
     "static/js/2.95aec8c0.chunk.js",
     "static/css/main.981bff40.chunk.css",
-    "static/js/main.9c8e6059.chunk.js"
+    "static/js/main.ebde6947.chunk.js"
   ]
 }
