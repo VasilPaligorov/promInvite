@@ -240,3 +240,10 @@ img{
   margin-top: 15vh;
   z-index: 10;
 }
+
+.modal-button{
+  background-image: url(../public/mail.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
