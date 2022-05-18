@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/promInvite/static/css/main.71a332ee.chunk.css",
+    "main.css": "/promInvite/static/css/main.7ce76b25.chunk.css",
     "main.js": "/promInvite/static/js/main.1f0dc67b.chunk.js",
     "main.js.map": "/promInvite/static/js/main.1f0dc67b.chunk.js.map",
     "runtime-main.js": "/promInvite/static/js/runtime-main.d4556479.js",
@@ -8,13 +8,13 @@
     "static/js/2.95aec8c0.chunk.js": "/promInvite/static/js/2.95aec8c0.chunk.js",
     "static/js/2.95aec8c0.chunk.js.map": "/promInvite/static/js/2.95aec8c0.chunk.js.map",
     "index.html": "/promInvite/index.html",
-    "static/css/main.71a332ee.chunk.css.map": "/promInvite/static/css/main.71a332ee.chunk.css.map",
+    "static/css/main.7ce76b25.chunk.css.map": "/promInvite/static/css/main.7ce76b25.chunk.css.map",
     "static/js/2.95aec8c0.chunk.js.LICENSE.txt": "/promInvite/static/js/2.95aec8c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d4556479.js",
     "static/js/2.95aec8c0.chunk.js",
-    "static/css/main.71a332ee.chunk.css",
+    "static/css/main.7ce76b25.chunk.css",
     "static/js/main.1f0dc67b.chunk.js"
   ]
 }
