@@ -35,21 +35,14 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-h2 {
-  font-weight: 500;
-  font-size: 150%;
-  letter-spacing: 0;
-  font-family: "Montserrat", sans-serif;
-}
-
 h3 {
   text-align: center;
   color: var(--dark);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 330%;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
-  padding: 2rem 0 1.5rem 0;
+  font-family: 'Marck Script', cursive;
+  padding: 0.5rem 0 0.5rem 0;
   margin: 0;
   text-transform: capitalize;
 }
@@ -58,13 +51,25 @@ h5 {
   text-align: center;
   color: var(--dark);
   font-weight: 500;
-  font-size: 130%;
+  font-size: 230%;
   text-align: justify;
+  font-family: 'Marck Script', cursive;
   letter-spacing: 0;
-  font-family: "Montserrat", sans-serif;
   padding: 0;
   line-height: 125%;
   margin: 0;
+}
+
+h6 {
+  text-align: center;
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 190%;
+  text-align: justify;
+  font-family: 'Marck Script', cursive;
+  letter-spacing: 0;
+  margin: 0;
+  margin-top: 1vh;
 }
 
 kbd {
@@ -119,6 +124,8 @@ button {
   flex-direction: column;
   align-items: center;
   margin-top: 20vh;
+
+  border: 1px solid var(--dark);
 }
 
 .orange-gradient {
@@ -205,7 +212,7 @@ button {
   }
   .modal {
     width: 750px;
-    height: 300px;
+    height: 400px;
   }
   .input,
   input {
@@ -226,24 +233,34 @@ img{
   margin:0;
 }
 
-/* Confetti{
-  height: 100vh;
-  width: 100vw;
-} */
-
 #root{
   height: 100vh;
   width: 100vw;
 }
 
 .modal{
-  margin-top: 15vh;
+  margin-top: 6vh;
   z-index: 10;
-}
 
-.modal-button{
-  background-image: url(../public/mail.png);
+  background-image: url(./invite.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.location{
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: #599db8;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #42788d;
 }
