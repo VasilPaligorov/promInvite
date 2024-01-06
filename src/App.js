@@ -4,16 +4,18 @@ import Modal from "./components/Modal";
 import { useState } from "react";
 import Confetti from 'react-confetti';
 import { useWindowSize } from '@react-hook/window-size';
+import mailImg from "./assets/mail.png";
+import openedMailImg from "./assets/openedMail.png";
 
 function App() {
   // Modal state
   const { modalOpen, close, open } = useModal();
-  const [img, setImg] = useState("mail.png");
+  const [img, setImg] = useState(mailImg);
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false);
 
   function setOpened() {
-    setImg("openedMail.png");
+    setImg(openedMailImg);
     setShowConfetti(true);
     open();
   }
@@ -29,7 +31,7 @@ function App() {
         <></>
       }
       <motion.main>
-        <h1>If you aren't scared click here:</h1>
+        <h1>Имате непрочетено съобщение:</h1>
         <motion.img src={img}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}

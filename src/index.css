@@ -149,13 +149,12 @@ button {
 }
 
 .modal-button {
-  position: relative;
-  bottom: 1.5rem;
-  padding: 0 3rem;
-  min-height: 3rem;
-  margin: auto auto 0 auto;
-  background: var(--dark);
-  color: var(--light);
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  height: 2.5rem;
+  background: transparent;
+  color: var(--dark);
 }
 
 .save-button {
@@ -242,7 +241,7 @@ img{
   margin-top: 6vh;
   z-index: 10;
 
-  background-image: url(./invite.png);
+  background-image: url(./assets/cardBackground.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
