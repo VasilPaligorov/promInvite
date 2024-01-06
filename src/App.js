@@ -31,7 +31,7 @@ function App() {
         <></>
       }
       <motion.main>
-        <h1>Имате непрочетено съобщение:</h1>
+        <h1>Имате непрочетено съобщение :</h1>
         <motion.img src={img}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
